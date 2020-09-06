@@ -10,7 +10,15 @@ namespace ConsoleApplication2git
     {
         static void Main(string[] args)
         {
+            ConsoleKeyInfo keyInfo;
             Console.WriteLine();
+            Console.WriteLine("Hello C#");
+            keyInfo = Console.ReadKey();
+            Console.WriteLine(keyInfo.KeyChar);
+            Console.WriteLine();
+            Console.WriteLine("123" + keyInfo.KeyChar);
+            Console.WriteLine();
+            Console.ReadKey();
         }
     }
 }
